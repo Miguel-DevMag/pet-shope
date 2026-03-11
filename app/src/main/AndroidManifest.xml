@@ -9,6 +9,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         <activity
+            android:name=".OrderFulfilledActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CarrinhoActivity"
+            android:exported="false" />
+        <activity
             android:name=".RegisterActivity"
             android:exported="false" />
         <activity
