@@ -21,7 +21,6 @@
             android:layout_width="380dp"
             android:layout_height="250dp"
             android:scaleType="centerCrop"
-            android:src="@drawable/unnamed"
             android:layout_marginBottom="11dp"/>
 
 
@@ -73,12 +72,6 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="38dp"
             android:text="Cadastra" />
-
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/unnamed" />
 
 
     </LinearLayout>
