@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InicialActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:background="#F5F5F5">
+
+        <FrameLayout
+            android:layout_width="411dp"
+            android:layout_height="133dp"
+            android:background="#0059ff"
+            tools:layout_editor_absoluteX="-1dp"
+            tools:layout_editor_absoluteY="1dp">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="69dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="40dp"
+                android:text="Pet Vida"
+                android:textColor="#ffffff"
+                android:textSize="18dp" />
+
+            <androidx.appcompat.widget.SearchView
+                android:id="@+id/search_view"
+                android:layout_width="372dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="70dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="10dp"
+                android:background="#ffff"
+                app:iconifiedByDefault="false"
+                app:queryHint="Pesquisar..." />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginTop="18dp"
+                android:layout_marginStart="180dp"
+                android:background="#419ff7"
+                android:text="⚙️ Configurações"
+                android:textColor="#FFFFFF"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_carrinho"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🛒 0"
+                android:textColor="#000000"
+                android:backgroundTint="#FFFFFF"
+                app:cornerRadius="40dp"
+                app:strokeColor="#CCCCCC"
+                app:strokeWidth="1dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginStart="290dp"/>
+
+
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/images" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="218dp"
+            android:layout_height="135dp"
+            app:srcCompat="@drawable/ce96682407f5f433ae3185f531a036c3" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="224dp"
+            android:layout_height="173dp"
+            app:srcCompat="@drawable/shopping" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
